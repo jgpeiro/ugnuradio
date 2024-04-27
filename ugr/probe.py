@@ -1,3 +1,5 @@
+from top_block import TopBlock
+
 class Probe(TopBlock):
     def __init__(self, item_size, callback):
         super().__init__()

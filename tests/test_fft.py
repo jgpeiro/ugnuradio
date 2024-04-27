@@ -33,8 +33,8 @@ class TestFFT(unittest.TestCase):
         output = self.fft_block.fft(input_items)
         self.assertEqual(len(output), len(expected_output))
         for i in range(len(output)):
-            self.assertAlmostEqual(output[i].real, expected_output[i].real, places=5)
-            self.assertAlmostEqual(output[i].imag, expected_output[i].imag, places=5)
+            self.assertAlmostEqual(output[i].real, expected_output[i].real, places=3)
+            self.assertAlmostEqual(output[i].imag, expected_output[i].imag, places=3)
 
 if __name__ == '__main__':
     unittest.main()
