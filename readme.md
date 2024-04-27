@@ -1,5 +1,7 @@
 # uGNURadio: MicroPython Edition
 
+![](doc/ugnuradio.png)
+
 uGNURadio is a lightweight and efficient implementation of the GNURadio framework for MicroPython. It allows you to build and execute signal processing applications on resource-constrained devices such as microcontrollers.
 
 ## Features
